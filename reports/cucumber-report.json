@@ -1,0 +1,105 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;successful-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Successful Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 978626499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User launches OrangeHRM application",
+            "match": {
+              "location": "step-definitions\\LoginSteps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2734009399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enters username \"Admin\"",
+            "match": {
+              "location": "step-definitions\\LoginSteps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 744146799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User enters password \"admin123\"",
+            "match": {
+              "location": "step-definitions\\LoginSteps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32477100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "step-definitions\\LoginSteps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 199496799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User should be navigated to Dashboard page",
+            "match": {
+              "location": "step-definitions\\DashboardSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3493674699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 535827400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
